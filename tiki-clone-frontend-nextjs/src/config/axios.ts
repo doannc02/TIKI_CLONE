@@ -51,7 +51,7 @@ const logoutAccount = async () => {
       window.location.replace('/login')
     } else
       window.location.replace(
-        `https://company-service${SUBDOMAIN}/login?redirect=accounting-cms`
+        `https://${SUBDOMAIN}/login?redirect=accounting-cms`
       )
   }
 }
