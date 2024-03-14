@@ -1,0 +1,49 @@
+{
+    "title": "TỔNG QUAN CÔNG NỢ PHẢI THU KHÁCH HÀNG",
+    "table": {
+      "code": "Mã khách hàng",
+      "name": "Tên Khách hàng",
+      "maximumDebtAmount": "Hạn mức nợ",
+      "remainingLimit": "Hạn mức còn lại",
+      "totalDebtReceived": "Tổng công nợ",
+      "amountPunish": "Phạt trả chậm",
+      "action": "Hành động"
+    },
+
+    "detail": "CHI TIẾT CÔNG NỢ",
+    "debt_policy": "Công nợ theo chính sách",
+    "debt_exception": "Công nợ ngoại lệ",
+    "table1" : { 
+      "code": "Đơn hàng",
+      "orderDate": "Ngày lập",
+      "amountTotal": "Tổng tiền phải trả",
+      "amountPunish": "Phạt trả chậm",
+      "action": "Hành động"
+    },
+
+    "table2" : {
+      "code": "Hóa đơn",
+      "date": "Ngày lập",
+      "dueDate": "Ngày đến hạn",
+      "amountTotal": "Tổng tiền",
+      "punishRemainingAmount": "Phạt trả chậm",
+      "remainingAmount": "Số tiền còn lại",
+      "paymentStatus": "Thanh toán",
+      "action": "Hành động"
+    },
+
+    "titleInvoice": "CHI TIẾT CÔNG NỢ ĐƠN HÀNG",
+    "table3": {
+      "code": "Mã hóa đơn",
+      "date": "Ngày lập",
+      "dueDate": "Ngày đến hạn",
+      "amountTotal":"Tổng tiền",
+      "remainingAmount": "Số tiền hóa đơn còn lại",
+      "punishAmount": "Phạt trả chậm",
+      "punishRemainingAmount": "Số tiền phạt còn lại",
+      "totalMoneyHavePaid": "Tổng tiền phải trả",
+      "paymentStatus": "Thanh toán",
+      "state": "Trạng thái",
+      "action": "Hành động"
+    }
+  }

@@ -1,0 +1,26 @@
+import { WrapLayout } from '@/components/layouts/WrapLayout'
+import { Meta } from '@/components/meta'
+import BankAccountList from '@/components/templates/Accounting/BankAccount/BankAccountList'
+import { HttpResponse } from '@/lib/api'
+import { NextPageWithLayout } from '@/lib/next/types'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+
+type Props = HttpResponse<null>
+
+const Page: NextPageWithLayout<Props> = () => <BankAccountList />
+
+Page.getLayout = WrapLayout
+Page.getMeta = Meta(() => ({ title: 'Bank Account' }))
+
+export const getServerSideProps = async ({ locale = 'vn' }) => {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, [
+        'common',
+        'accounting/bank-account',
+      ])),
+    },
+  }
+}
+
+export default Page

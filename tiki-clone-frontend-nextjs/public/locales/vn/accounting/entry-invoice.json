@@ -1,0 +1,13 @@
+{
+  "title": "BÚT TOÁN PHÁT SINH",
+  "table": {
+    "code": "Số hóa đơn",
+    "partner": "Khách hàng",
+    "date": "Ngày lập hóa đơn",
+    "dueDate": "Ngày đến hạn",
+    "amountUntaxed": "Trước thuế",
+    "amountTotal": "Tổng tiền",
+    "paymentStatus": "Thanh toán",
+    "state": "Trạng thái"
+  }
+}

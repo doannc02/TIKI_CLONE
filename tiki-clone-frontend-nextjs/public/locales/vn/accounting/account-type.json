@@ -1,0 +1,8 @@
+{
+    "title": "LOẠI TÀI KHOẢN",
+    "table": {
+      "name": "Tên loại tài khoản",
+      "code": "Mã loại tài khoản",
+      "action": "Hành động"
+    }
+  }

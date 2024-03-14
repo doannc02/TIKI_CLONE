@@ -1,0 +1,9 @@
+{
+  "title": "LÀM TRÒN TIỀN",
+  "table": {
+    "name": "Tên cách làm",
+    "roundingPrecision": "Làm tròn chính xác",
+    "roundingMethod": "Phương pháp làm tròn",
+    "action": "Hành động"
+  }
+}

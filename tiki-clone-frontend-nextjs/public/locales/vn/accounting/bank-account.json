@@ -1,0 +1,24 @@
+{
+  "title": {
+    "inbound": "THU TIỀN",
+    "outbound": "CHI TIỀN"
+  },
+  "table": {
+    "paymentDate": "Ngày",
+    "code": "Mã thanh toán",
+    "accountJournalName": "Sổ kế toán",
+    "paymentMethod": "Hình thức TT",
+    "partnerName": "Đối tác",
+    "amountSource": "Nguyên tệ",
+    "amount": "Số tiền",
+    "state": "Trạng thái",
+    "action": "Hành động"
+  },
+  "enTryTable": {
+    "accountName": "Tài khoản",
+    "partnerName": "Đối tác",
+    "note": "Nhãn",
+    "debit": "Nợ",
+    "credit": "Có"
+  }
+}

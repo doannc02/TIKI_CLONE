@@ -1,0 +1,8 @@
+{
+  "title": "CẤU HÌNH THẺ TÀI KHOẢN",
+  "table": {
+    "name": "Tên thẻ",
+    "applicability": "Khả năng áp dụng",
+    "action": "Hành động"
+  }
+}

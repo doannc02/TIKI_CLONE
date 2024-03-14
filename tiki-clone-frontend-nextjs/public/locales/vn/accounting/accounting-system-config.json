@@ -1,0 +1,8 @@
+{
+  "title": "CẤU HÌNH HỆ THỐNG TÀI KHOẢN",
+  "table": {
+    "name": "Tên",
+    "code":"Mã",
+    "action": "Hành động"
+  }
+}

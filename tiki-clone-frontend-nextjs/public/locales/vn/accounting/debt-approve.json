@@ -1,0 +1,11 @@
+{
+    "title": "PHÊ DUYỆT CHÍNH SÁCH CẤP CÔNG NỢ",
+    "table": {
+      "name": "Tên chính sách",
+      "timeApplyPolicy": "Thời gian bắt đầu",
+      "timeEndPolicy": "Thời gian kết thúc",
+      "approvalDate": "Ngày phê duyệt",
+      "approvalPerson": "Người phê duyệt",
+      "statusPolicy": "Trạng thái"
+    }
+  }

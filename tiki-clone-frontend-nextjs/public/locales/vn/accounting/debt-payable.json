@@ -1,0 +1,21 @@
+{
+    "title": "TỔNG QUAN CÔNG NỢ PHẢI TRẢ NCC",
+    "table": {
+      "code": "Mã NCC",
+      "name": "Tên NCC",
+      "debtPaidVendor": "Nợ cần trả",
+      "action": "Hành động"
+    },
+
+    "titleDetail": "CHI TIẾT CÔNG NỢ",
+    "table1": {
+      "code": "Đơn hàng/Hóa đơn",
+      "date": "Ngày lập",
+      "dueDate": "Ngày hết hạn",
+      "daysLeft": "Số ngày quá hạn",
+      "amountTotal": "Tổng tiền",
+      "remainingAmount": "Tổng tiền còn lại phải trả",
+      "paymentStatus": "Thanh toán",
+      "action": "Hành động"
+    }
+  }

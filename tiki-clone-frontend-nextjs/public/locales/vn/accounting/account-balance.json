@@ -1,0 +1,11 @@
+{
+    "title": "DANH SÁCH SỐ DƯ TÀI KHOẢN",
+    "table": {
+        "code": "Mã tài khoản",
+        "name": "Tên tài khoản",
+        "debit": "Dư nợ",
+        "credit": "Dư có",
+        "amountSourceDebit": "Dư nợ gốc",
+        "amountSourceCredit": "Dư có gốc"
+    }
+}

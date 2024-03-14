@@ -1,0 +1,12 @@
+{
+  "title": "HẠNG MỤC BÚT TOÁN",
+  "table": {
+    "createdAt": "Ngày",
+    "codeInvoice": "Bút toán",
+    "accountName": "Tài khoản",
+    "partnerName": "Đối tác",
+    "label": "Nhãn",
+    "debit": "Nợ",
+    "credit": "Có"
+  }
+}

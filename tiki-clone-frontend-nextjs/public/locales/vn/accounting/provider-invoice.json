@@ -1,0 +1,13 @@
+{
+  "title": "HÓA ĐƠN",
+  "table": {
+    "code": "Số hóa đơn",
+    "partner": "Nhà cung cấp",
+    "date": "Ngày lập hóa đơn",
+    "dueDate": "Ngày đến hạn",
+    "amountUntaxed": "Trước thuế",
+    "amountTotal": "Tổng tiền",
+    "paymentStatus": "Thanh toán",
+    "state": "Trạng thái"
+  }
+}
