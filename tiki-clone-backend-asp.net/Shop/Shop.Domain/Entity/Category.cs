@@ -23,6 +23,8 @@ public partial class Category
 
     public virtual ICollection<Categorydiscount> Categorydiscounts { get; set; } = new List<Categorydiscount>();
 
+    public virtual ICollection<Filterproperty> Filterproperties { get; set; } = new List<Filterproperty>();
+
     public virtual ICollection<Category> InverseParent { get; set; } = new List<Category>();
 
     public virtual Category? Parent { get; set; }

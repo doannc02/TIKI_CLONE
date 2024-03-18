@@ -28,9 +28,21 @@ namespace Shop.Application.Services.Base
             _mapper = mapper;
         }
 
-        public async Task<FilterPaging<TEntityDTO>> FillterPagingAsync(int pageNumber, int pageSize, FilterInput filterInput)
+        public async Task<FilterPaging<TEntityDTO>> FillterPagingAsync(Dictionary<string, string> conditionFilter)
         {
-            var filterPagingEntity = await _readRepository.FillterPagingAsync(pageNumber, pageSize, filterInput);
+            int page = 0;
+            int size = 0;
+            if (conditionFilter.ContainsKey("page"))
+            {
+                var pageString = conditionFilter["page"];
+                _ = int.TryParse(pageString, out page);
+            }
+            if (conditionFilter.ContainsKey("size"))
+            {
+                var sizeString = conditionFilter["size"];
+                _ = int.TryParse(sizeString, out size);
+            }
+            var filterPagingEntity = await _readRepository.FillterPagingAsync(page, size, "");
 
             var listEntityDTOFilter = MapListEntityToListEntityDTO(filterPagingEntity.Items);
 
@@ -40,7 +52,6 @@ namespace Shop.Application.Services.Base
                 TotalRecord = filterPagingEntity.TotalRecord,
                 Page = filterPagingEntity.Page,
                 Size = filterPagingEntity.Size,
-                Sort = filterPagingEntity.Sort,
                 Items = listEntityDTOFilter
             };
 

@@ -52,6 +52,6 @@ namespace Shop.Application.Interface
         /// <param name="filterInput"></param>
         /// <returns>danh sách đã được lọc và phân trang</returns>
         /// author: Trương Mạnh Quang (4/11/2023)
-        Task<FilterPaging<TEntityDTO>> FillterPagingAsync(int pageNumber, int pageSize, FilterInput filterInput);
+        Task<FilterPaging<TEntityDTO>> FillterPagingAsync(Dictionary<string, string> conditionFilter);
     }
 }

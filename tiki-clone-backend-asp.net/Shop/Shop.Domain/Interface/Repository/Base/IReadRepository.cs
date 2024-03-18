@@ -50,7 +50,7 @@ namespace Shop.Domain.Interface.Repository
         /// <param name="filterInput"></param>
         /// <returns>danh sách đã được lọc và phân trang</returns>
         /// author: Trương Mạnh Quang (28/10/2023)
-        Task<FilterPaging<T>> FillterPagingAsync(int pageNumber, int pageSize, FilterInput filterInput);
+        Task<FilterPaging<T>> FillterPagingAsync(int pageNumber, int pageSize, string condition);
 
     }
 }

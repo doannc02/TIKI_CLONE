@@ -23,6 +23,6 @@ namespace Shop.Domain.Interface.UseCases
         /// </summary>
         /// <param name="categoryName">tên danh mục</param>
         /// <returns>danh sách sản phẩm theo danh mục</returns>
-        public Task<PageResponse<ProductDTO>> PagingProductByCategory(string categoryName, int pageNumber, int pageSize);
+        public Task<PageResponse<ProductDTO>> PagingFilterProductByCategory(string categoryName, Dictionary<string, string> conditionFilter);
     }
 }

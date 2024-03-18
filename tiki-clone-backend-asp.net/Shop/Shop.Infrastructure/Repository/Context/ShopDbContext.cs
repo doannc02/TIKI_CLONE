@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Shop.Domain.Entity;
 
 namespace Shop.Infrastructure.Repository;
 
 public partial class ShopDbContext : DbContext
 {
-    private readonly string _connectionString;
-    public ShopDbContext(string connectionString)
+    public ShopDbContext()
     {
-        _connectionString = connectionString;
     }
 
     public ShopDbContext(DbContextOptions<ShopDbContext> options)
@@ -28,6 +25,8 @@ public partial class ShopDbContext : DbContext
     public virtual DbSet<Comment> Comments { get; set; }
 
     public virtual DbSet<Discount> Discounts { get; set; }
+
+    public virtual DbSet<Filterproperty> Filterproperties { get; set; }
 
     public virtual DbSet<Order> Orders { get; set; }
 
@@ -72,7 +71,8 @@ public partial class ShopDbContext : DbContext
     public virtual DbSet<Viewedproduct> Viewedproducts { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseMySql(_connectionString, Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.30-mysql"));
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseMySql("server=localhost;port=3306;database=shop;uid=root;pwd=12345678910", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.30-mysql"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -189,6 +189,31 @@ public partial class ShopDbContext : DbContext
                 .UseCollation("utf8mb3_general_ci")
                 .HasCharSet("utf8mb3");
             entity.Property(e => e.StartDate).HasColumnType("datetime");
+        });
+
+        modelBuilder.Entity<Filterproperty>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
+            entity.ToTable("filterproperty", tb => tb.HasComment("Các thuộc tính dùng cho việc lọc phân trang"));
+
+            entity.HasIndex(e => e.CategoryId, "CategoryId");
+
+            entity.HasIndex(e => e.VariationId, "VariationId");
+
+            entity.Property(e => e.CategoryId).HasDefaultValueSql("''");
+            entity.Property(e => e.Code).HasMaxLength(255);
+            entity.Property(e => e.VariationId).HasDefaultValueSql("''");
+
+            entity.HasOne(d => d.Category).WithMany(p => p.Filterproperties)
+                .HasForeignKey(d => d.CategoryId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("filterproperty_ibfk_1");
+
+            entity.HasOne(d => d.Variation).WithMany(p => p.Filterproperties)
+                .HasForeignKey(d => d.VariationId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("filterproperty_ibfk_2");
         });
 
         modelBuilder.Entity<Order>(entity =>

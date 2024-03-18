@@ -12,6 +12,9 @@ namespace Shop.Domain.Model.Input
     /// author: Trương Mạnh Quang (28/10/2023)
     public class FilterInput
     {
+        public int Page { get; set; }
+        public int Size { get; set; }
+
         public List<string> SearchField { get; set; } = new List<string>();
         public string SearchKey { get; set; } = string.Empty;
         public string Condition { get; set; } = string.Empty;

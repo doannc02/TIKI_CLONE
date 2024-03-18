@@ -233,7 +233,7 @@ namespace Shop.Application.UseCases
             }
         }
 
-        public Task<PageResponse<ProductDTO>> PagingProductByCategory(string categoryName, int pageNumber, int pageSize)
+        public Task<PageResponse<ProductDTO>> PagingFilterProductByCategory(string categoryName, Dictionary<string, string> conditionFilter)
         {
             /**
              * lấy mã
@@ -245,9 +245,20 @@ namespace Shop.Application.UseCases
              * lấy tổng phần trăm giảm giá
              */
 
-
+            int page = 0;
+            int size = 0;
+            if (conditionFilter.ContainsKey("page"))
+            {
+                var pageString = conditionFilter["page"];
+                _ = int.TryParse(pageString, out page);
+            }
+            if (conditionFilter.ContainsKey("size"))
+            {
+                var sizeString = conditionFilter["size"];
+                _ = int.TryParse(sizeString, out size);
+            }
             // lấy thông tin sản phẩm
-            //var listProduct = _productService.FillterPagingAsync(pageNumber, pageSize, "");
+            //var listProduct = _productService.FillterPagingAsync(page, size, "");
 
             throw new NotImplementedException();
         }

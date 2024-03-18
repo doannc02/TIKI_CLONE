@@ -27,7 +27,7 @@ namespace Shop.Infrastructure
             _unitOfWork = unitOfWork;
             _dbConnection = _unitOfWork.Connection;
         }
-        public async Task<FilterPaging<T>> FillterPagingAsync(int pageNumber, int pageSize, FilterInput filterInput)
+        public async Task<FilterPaging<T>> FillterPagingAsync(int pageNumber, int pageSize, string condition)
         {
             if (pageNumber <= 0 || pageSize <= 0)
             {
@@ -39,38 +39,38 @@ namespace Shop.Infrastructure
                 int totalPage;
                 int currentPage;
                 int currentRecord;
-                string sql = $"SELECT #output FROM {TableName} WHERE #condition AND #searchKey #paing";
+                string sql = $"SELECT #output FROM {TableName} WHERE #condition #paing";
                 DynamicParameters parameters = new();
 
-                if (filterInput.IsSearchKeyEmpty() || filterInput.IsSearchFieldAnyEmpty())
-                {
-                    sql = sql.Replace("#searchKey", "1=1");
-                }
-                else
-                {
-                    List<string> searchCondition = new();
-                    Type tType = typeof(T);
+                //if (filterInput.IsSearchKeyEmpty() || filterInput.IsSearchFieldAnyEmpty())
+                //{
+                //    sql = sql.Replace("#searchKey", "1=1");
+                //}
+                //else
+                //{
+                //    List<string> searchCondition = new();
+                //    Type tType = typeof(T);
                     
-                    for(int i = filterInput.SearchField.Count - 1; i >= 0; i--)
-                    {
-                        if(tType.GetFields().Any(item=>item.Name == filterInput.SearchField[i]))
-                        {
-                            searchCondition.Add($"({filterInput.SearchField[i]} = @searchKey");
-                        }
-                    }
-                    sql = sql.Replace("#searchKey", string.Join(" OR ", searchCondition));
-                    parameters.Add("@searchKey", filterInput.SearchKey);
+                //    for(int i = filterInput.SearchField.Count - 1; i >= 0; i--)
+                //    {
+                //        if(tType.GetFields().Any(item=>item.Name == filterInput.SearchField[i]))
+                //        {
+                //            searchCondition.Add($"({filterInput.SearchField[i]} = @searchKey");
+                //        }
+                //    }
+                //    sql = sql.Replace("#searchKey", string.Join(" OR ", searchCondition));
+                //    parameters.Add("@searchKey", filterInput.SearchKey);
 
-                }
+                //}
 
-                if (filterInput.IsConditionEmpty())
+                if (string.IsNullOrEmpty(condition))
                 {
                     sql = sql.Replace("#condition", "1=1");
                 }
                 else
                 {
                     sql = sql.Replace("#condition", "@condition");
-                    parameters.Add("@condition", filterInput.Condition);
+                    parameters.Add("@condition", condition);
                 }
 
                 // count total record
@@ -92,7 +92,7 @@ namespace Shop.Infrastructure
                     int skipRecord = (currentPage - 1) * pageSize;
 
                     string sqlFilterPaging = sql.Replace("#output", "*");
-                    sqlFilterPaging = sqlFilterPaging.Replace("#paging", "ORDER BY ModifiedDate DESC, CreatedDate DESC  LIMIT @skipRecord,@pageSize");
+                    sqlFilterPaging = sqlFilterPaging.Replace("#paging", "LIMIT @skipRecord,@pageSize");
 
                     parameters.Add("skipRecord", skipRecord);
                     parameters.Add("pageSize", pageSize);
