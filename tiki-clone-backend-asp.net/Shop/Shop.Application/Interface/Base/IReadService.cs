@@ -45,13 +45,13 @@ namespace Shop.Application.Interface
         /// <param name="filterInput"></param>
         /// <returns>danh sách các bản ghi đã được lọc</returns>
         /// author: Trương Mạnh Quang (4/11/2023)
-        Task<IEnumerable<TEntityDTO>> FilterAsync(FilterInput filterInput);
+        //Task<IEnumerable<TEntityDTO>> FilterAsync(FilterInput filterInput);
         /// <summary>
         /// lọc và phân trang bản ghi
         /// </summary>
         /// <param name="filterInput"></param>
         /// <returns>danh sách đã được lọc và phân trang</returns>
         /// author: Trương Mạnh Quang (4/11/2023)
-        Task<FilterPaging<TEntityDTO>> FillterPagingAsync(Dictionary<string, string> conditionFilter);
+        //Task<FilterPaging<TEntityDTO>> FillterPagingAsync(Dictionary<string, string> conditionFilter);
     }
 }

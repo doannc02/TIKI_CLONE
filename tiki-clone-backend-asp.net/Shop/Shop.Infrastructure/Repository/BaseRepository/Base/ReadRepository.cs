@@ -27,116 +27,95 @@ namespace Shop.Infrastructure
             _unitOfWork = unitOfWork;
             _dbConnection = _unitOfWork.Connection;
         }
-        public async Task<FilterPaging<T>> FillterPagingAsync(int pageNumber, int pageSize, string condition)
-        {
-            if (pageNumber <= 0 || pageSize <= 0)
-            {
-                return new FilterPaging<T>();
-            }
-            else
-            {
-                int totalRecord;
-                int totalPage;
-                int currentPage;
-                int currentRecord;
-                string sql = $"SELECT #output FROM {TableName} WHERE #condition #paing";
-                DynamicParameters parameters = new();
+        //public async Task<FilterPaging<T>> FillterPagingAsync(int pageNumber, int pageSize, string condition)
+        //{
+        //    if (pageNumber <= 0 || pageSize <= 0)
+        //    {
+        //        return new FilterPaging<T>();
+        //    }
+        //    else
+        //    {
+        //        int totalRecord;
+        //        int totalPage;
+        //        int currentPage;
+        //        int currentRecord;
+        //        string sql = $"SELECT #output FROM {TableName} WHERE #condition #paing";
+        //        DynamicParameters parameters = new();
 
-                //if (filterInput.IsSearchKeyEmpty() || filterInput.IsSearchFieldAnyEmpty())
-                //{
-                //    sql = sql.Replace("#searchKey", "1=1");
-                //}
-                //else
-                //{
-                //    List<string> searchCondition = new();
-                //    Type tType = typeof(T);
-                    
-                //    for(int i = filterInput.SearchField.Count - 1; i >= 0; i--)
-                //    {
-                //        if(tType.GetFields().Any(item=>item.Name == filterInput.SearchField[i]))
-                //        {
-                //            searchCondition.Add($"({filterInput.SearchField[i]} = @searchKey");
-                //        }
-                //    }
-                //    sql = sql.Replace("#searchKey", string.Join(" OR ", searchCondition));
-                //    parameters.Add("@searchKey", filterInput.SearchKey);
+        //        if (string.IsNullOrEmpty(condition))
+        //        {
+        //            sql = sql.Replace("#condition", "1=1");
+        //        }
+        //        else
+        //        {
+        //            sql = sql.Replace("#condition", "@condition");
+        //            parameters.Add("@condition", condition);
+        //        }
 
-                //}
+        //        // count total record
+        //        string sqlCountRecord = sql.Replace("#output", "COUNT(*)");
+        //        sqlCountRecord = sqlCountRecord.Replace("#paging", string.Empty);
 
-                if (string.IsNullOrEmpty(condition))
-                {
-                    sql = sql.Replace("#condition", "1=1");
-                }
-                else
-                {
-                    sql = sql.Replace("#condition", "@condition");
-                    parameters.Add("@condition", condition);
-                }
+        //        totalRecord = await _dbConnection.QuerySingleAsync<int>(sqlCountRecord, parameters);
 
-                // count total record
-                string sqlCountRecord = sql.Replace("#output", "COUNT(*)");
-                sqlCountRecord = sqlCountRecord.Replace("#paging", string.Empty);
+        //        ////
+        //        if (totalRecord == 0)
+        //        {
+        //            return new FilterPaging<T>();
+        //        }
+        //        else
+        //        {
+        //            totalPage = (int)Math.Ceiling(totalRecord * 1.0 / pageSize);
+        //            currentPage = Math.Min(totalPage, pageNumber);
+        //            currentRecord = currentPage < totalPage ? pageSize : totalRecord - ((currentPage - 1) * pageSize);
+        //            int skipRecord = (currentPage - 1) * pageSize;
 
-                totalRecord = await _dbConnection.QuerySingleAsync<int>(sqlCountRecord, parameters);
+        //            string sqlFilterPaging = sql.Replace("#output", "*");
+        //            sqlFilterPaging = sqlFilterPaging.Replace("#paging", "LIMIT @skipRecord,@pageSize");
 
-                ////
-                if (totalRecord == 0)
-                {
-                    return new FilterPaging<T>();
-                }
-                else
-                {
-                    totalPage = (int)Math.Ceiling(totalRecord * 1.0 / pageSize);
-                    currentPage = Math.Min(totalPage, pageNumber);
-                    currentRecord = currentPage < totalPage ? pageSize : totalRecord - ((currentPage - 1) * pageSize);
-                    int skipRecord = (currentPage - 1) * pageSize;
+        //            parameters.Add("skipRecord", skipRecord);
+        //            parameters.Add("pageSize", pageSize);
 
-                    string sqlFilterPaging = sql.Replace("#output", "*");
-                    sqlFilterPaging = sqlFilterPaging.Replace("#paging", "LIMIT @skipRecord,@pageSize");
+        //            var listRecord = await _dbConnection.QueryAsync<T>(sqlFilterPaging, parameters);
 
-                    parameters.Add("skipRecord", skipRecord);
-                    parameters.Add("pageSize", pageSize);
+        //            return new FilterPaging<T>()
+        //            {
+        //                TotalRecord = totalRecord,
+        //                TotalPage = totalPage,
+        //                Size = currentRecord,
+        //                Page = currentPage,
+        //                Items = listRecord.AsList(),
+        //            };
+        //        }
+        //    }
 
-                    var listRecord = await _dbConnection.QueryAsync<T>(sqlFilterPaging, parameters);
+        //}
 
-                    return new FilterPaging<T>()
-                    {
-                        TotalRecord = totalRecord,
-                        TotalPage = totalPage,
-                        Size = currentRecord,
-                        Page = currentPage,
-                        Items = listRecord.AsList(),
-                    };
-                }
-            }
+        //public async Task<IEnumerable<T>> FilterAsync(FilterInput filterInput)
+        //{
+        //    if (filterInput.IsSearchKeyEmpty() && filterInput.IsConditionEmpty())
+        //    {
+        //        return await GetAllAsync();
+        //    }
+        //    else
+        //    {
+        //        string condition = filterInput.Condition ?? "1=1";
 
-        }
+        //        string sql = $"SELECT * FROM {TableName} WHERE @condition ORDER BY ModifiedDate DESC, CreatedDate DESC";
 
-        public async Task<IEnumerable<T>> FilterAsync(FilterInput filterInput)
-        {
-            if (filterInput.IsSearchKeyEmpty() && filterInput.IsConditionEmpty())
-            {
-                return await GetAllAsync();
-            }
-            else
-            {
-                string condition = filterInput.Condition ?? "1=1";
+        //        DynamicParameters parameters = new();
+        //        parameters.Add("condition", condition);
 
-                string sql = $"SELECT * FROM {TableName} WHERE @condition ORDER BY ModifiedDate DESC, CreatedDate DESC";
+        //        if (filterInput.IsSearchKeyEmpty())
+        //        {
+        //            sql += $" AND (Code = @searchKey OR Name = @searchKey)";
+        //            parameters.Add("searchKey", filterInput.SearchKey);
+        //        }
 
-                DynamicParameters parameters = new();
-                parameters.Add("condition", condition);
-
-                if (filterInput.IsSearchKeyEmpty())
-                {
-                    sql += $" AND (Code = @searchKey OR Name = @searchKey)";
-                    parameters.Add("searchKey", filterInput.SearchKey);
-                }
-
-                var result = await _dbConnection.QueryAsync<T>(sql, parameters);
-                return result;
-            }
-        }
+        //        var result = await _dbConnection.QueryAsync<T>(sql, parameters);
+        //        return result;
+        //    }
+        //}
 
         public async Task<IEnumerable<T>> GetAllAsync()
         {

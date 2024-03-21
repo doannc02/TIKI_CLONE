@@ -10,7 +10,7 @@ public partial class Filterproperty
 {
     public int Id { get; set; }
 
-    public string? Code { get; set; }
+    public string Code { get; set; }
 
     public Guid CategoryId { get; set; }
 

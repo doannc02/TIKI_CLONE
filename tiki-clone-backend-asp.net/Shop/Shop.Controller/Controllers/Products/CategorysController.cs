@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Shop.Application.Interface;
 using Shop.Application.Interface.ProductsService;
 using Shop.Controllers;
+using Shop.Domain.CustomAttibute;
 using Shop.Domain.Model.DTO;
 
 namespace Shop.Controller.Controllers.Products
@@ -15,6 +16,14 @@ namespace Shop.Controller.Controllers.Products
         public CategorysController(ICategoryService categoryService) : base(categoryService)
         {
             _categoryService = categoryService;
+        }
+
+        [XAllowAnonymous]
+        [HttpGet("filter-property/{categoryName}")]
+        public async Task<IActionResult> GetFilterPropertyByNameAsync([FromRoute]string categoryName)
+        {
+            var result = await _categoryService.GetFilterPropertiesByAsync(categoryName);
+            return Ok(result);
         }
     }
 }

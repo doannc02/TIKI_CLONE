@@ -9,7 +9,7 @@ using Shop.Domain.Model.Request;
 
 namespace Shop.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     [ApiController]
     public class ProductsController : ControllerBase
     {
@@ -25,11 +25,12 @@ namespace Shop.Controllers
             var result = await _productUseCase.AddNewProduct(productForm);
             return Ok(result);
         }
-        
-        [HttpPost("/test")]
-        public IActionResult AddNewProduct1(List<IFormFile> formFile)
+
+        [HttpGet("{categoryName}/")]
+        public async Task<IActionResult> FilterPagingProductAsync([FromRoute] string categoryName,[FromQuery] Dictionary<string, string> conditions)
         {
-            return Ok(formFile);
+            var result = await _productUseCase.PagingFilterProductByCategoryAsync(categoryName, conditions);
+            return Ok(result);
         }
     }
 }

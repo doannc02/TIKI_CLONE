@@ -4,8 +4,10 @@ using Shop.Application.Interface;
 using Shop.Application.Interface.ProductsService;
 using Shop.Application.UnitOfWork;
 using Shop.Domain.Exceptions;
+using Shop.Domain.Interface.Repository;
 using Shop.Domain.Interface.UseCases;
 using Shop.Domain.Model.DTO;
+using Shop.Domain.Model.Output;
 using Shop.Domain.Model.Request;
 using Shop.Domain.Model.Response;
 using System;
@@ -28,7 +30,8 @@ namespace Shop.Application.UseCases
         private readonly IVariationOptionService _variationOptionService;
         private readonly IVariationOptionGroupService _variationOptionGroupService;
         private readonly IBrandService _brandService;
-        public ProductUseCase(IUnitOfWork unitOfWork, IHelper helper, IProductService productService, IProductDetailService productDetailService, IProductImageService productImageService, IProductConfigurationService productConfigurationService, IVariationService variationService, IVariationOptionService variationOptionService, IVariationOptionGroupService variationOptionGroupService, IBrandService brandService)
+        private readonly IProductRepository _productRepository;
+        public ProductUseCase(IUnitOfWork unitOfWork, IHelper helper, IProductRepository productRepository, IProductService productService, IProductDetailService productDetailService, IProductImageService productImageService, IProductConfigurationService productConfigurationService, IVariationService variationService, IVariationOptionService variationOptionService, IVariationOptionGroupService variationOptionGroupService, IBrandService brandService)
         {
             _unitOfWork = unitOfWork;
             _helper = helper;
@@ -40,6 +43,7 @@ namespace Shop.Application.UseCases
             _variationOptionService = variationOptionService;
             _variationOptionGroupService = variationOptionGroupService;
             _brandService = brandService;
+            _productRepository = productRepository;
         }
 
         public async Task<ProductCreateResponse> AddNewProduct(ProductForm productForm)
@@ -233,34 +237,52 @@ namespace Shop.Application.UseCases
             }
         }
 
-        public Task<PageResponse<ProductDTO>> PagingFilterProductByCategory(string categoryName, Dictionary<string, string> conditionFilter)
+        public async Task<PageResponse<ProductResponse>> PagingFilterProductByCategoryAsync(string categoryName, Dictionary<string, string> conditionFilter)
         {
             /**
-             * lấy mã
-             * lấy tên
-             * lấy hình ảnh
-             * lấy tổng số bán
-             * lấy tổng số sao
-             * lấy độ hot
-             * lấy tổng phần trăm giảm giá
+             * lấy mã : product
+             * lấy tên : product
+             * lấy hình ảnh : productImage > productId
+             * lấy tổng số bán : product
+             * lấy trung bình số sao : product
+             * lấy độ hot : product
+             * lấy tổng phần trăm giảm giá : discount
              */
 
-            int page = 0;
-            int size = 0;
+            int page = 1;
+            int size = 10;
             if (conditionFilter.ContainsKey("page"))
             {
                 var pageString = conditionFilter["page"];
                 _ = int.TryParse(pageString, out page);
+                conditionFilter.Remove("page");
             }
             if (conditionFilter.ContainsKey("size"))
             {
                 var sizeString = conditionFilter["size"];
                 _ = int.TryParse(sizeString, out size);
-            }
-            // lấy thông tin sản phẩm
-            //var listProduct = _productService.FillterPagingAsync(page, size, "");
+                conditionFilter.Remove("size");
 
-            throw new NotImplementedException();
+            }
+
+            string sortBy = string.Empty;
+            if (conditionFilter.ContainsKey("sortBy"))
+            {
+                sortBy = conditionFilter["sortBy"];
+                conditionFilter.Remove("sortBy");
+
+            }
+            
+            var filterPaging = await _productRepository.FilterPagingProductAsync(categoryName, page, size, sortBy, conditionFilter);
+
+            var result = new PageResponse<ProductResponse>
+            {
+                Message = "Success",
+                TraceId = "",
+                Data = filterPaging,
+            };
+
+            return result;
         }
     }
 }

@@ -19,11 +19,28 @@ namespace Shop.Infrastructure.Repository
 
         public async Task<Variation> GetByNameAsync(string name, DbTransaction? dbTransaction = null)
         {
-            string sql = $"Select * From {TableName} Where Name = @name";
+            string sql = $"Select v.Id, v.Name From {TableName} v Where Name = @name";
             DynamicParameters dynamicParameters = new();
             dynamicParameters.Add("name", name);
             var result = await _dbConnection.QuerySingleOrDefaultAsync<Variation>(sql, dynamicParameters, dbTransaction);
             return result;
+        }
+        public async Task<List<Variation>> GetByNamesAsync(List<string> names, DbTransaction? dbTransaction = null)
+        {
+            string sql = $"Select v.Id, v.Name, v.Discription From {TableName} v Where Name IN @names";
+            DynamicParameters dynamicParameters = new();
+            dynamicParameters.Add("names", names);
+            var result = await _dbConnection.QueryAsync<Variation>(sql, dynamicParameters, dbTransaction);
+            return result.ToList();
+        }
+
+        public async Task<bool> IsHasVariationNameAsync(string name)
+        {
+            string sql = $"Select Id From {TableName} v Where v.Name = @name";
+            DynamicParameters dynamicParameters = new();
+            dynamicParameters.Add("name", name);
+            var result = await _dbConnection.QueryFirstOrDefaultAsync(sql, dynamicParameters);
+            return result != null;
         }
     }
 }

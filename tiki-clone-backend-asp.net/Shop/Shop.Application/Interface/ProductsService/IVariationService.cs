@@ -16,5 +16,7 @@ namespace Shop.Application.Interface.ProductsService
         /// <param name="name"></param>
         /// <returns></returns>
         public Task<VariationDTO?> GetByNameAsync(string name, DbTransaction? dbTransaction = null);
+
+        public Task<List<VariationDTO>?> GetByNamesAsync(List<string> names, DbTransaction? dbTransaction = null);
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Shop.Domain.Model.DTO;
+using Shop.Domain.Model.Output;
 using Shop.Domain.Model.Request;
 using Shop.Domain.Model.Response;
 using System;
@@ -23,6 +24,6 @@ namespace Shop.Domain.Interface.UseCases
         /// </summary>
         /// <param name="categoryName">tên danh mục</param>
         /// <returns>danh sách sản phẩm theo danh mục</returns>
-        public Task<PageResponse<ProductDTO>> PagingFilterProductByCategory(string categoryName, Dictionary<string, string> conditionFilter);
+        Task<PageResponse<ProductResponse>> PagingFilterProductByCategoryAsync(string categoryName, Dictionary<string, string> conditionFilter);
     }
 }

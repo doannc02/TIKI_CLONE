@@ -11,6 +11,6 @@ namespace Shop.Domain.Model.Response
     {
         public string? Message { get; set; }
         public string? TraceId { get; set; }
-        public FilterPaging<T> Data { get; set; }
+        public FilterPaging<T>? Data { get; set; }
     }
 }

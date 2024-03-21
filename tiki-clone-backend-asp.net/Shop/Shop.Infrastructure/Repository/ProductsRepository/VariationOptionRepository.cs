@@ -14,5 +14,6 @@ namespace Shop.Infrastructure.Repository
         public VariationOptionRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
         }
+
     }
 }

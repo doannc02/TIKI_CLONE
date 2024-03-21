@@ -47,5 +47,13 @@ namespace Shop.Application.Services.ProductsService
             var variationDTO = MapEntityToEntiyDTO(variation);
             return variationDTO;
         }
+
+        public async Task<List<VariationDTO>?> GetByNamesAsync(List<string> names, DbTransaction? dbTransaction = null)
+        {
+            var variations = await _variationRepositry.GetByNamesAsync(names);
+            var result = MapListEntityToListEntityDTO(variations);
+            return result;
+
+        }
     }
 }
