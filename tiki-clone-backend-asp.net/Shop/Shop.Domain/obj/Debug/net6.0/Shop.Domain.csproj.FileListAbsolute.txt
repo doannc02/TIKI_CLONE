@@ -22,3 +22,4 @@ D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Domain\obj
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Domain\obj\Debug\net6.0\refint\Shop.Domain.dll
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Domain\obj\Debug\net6.0\Shop.Domain.pdb
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Domain\obj\Debug\net6.0\ref\Shop.Domain.dll
+D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Domain\obj\Debug\net6.0\Shop.Domain.sourcelink.json

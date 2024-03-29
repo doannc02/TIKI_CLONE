@@ -10,6 +10,7 @@ using Shop.Domain.Model.DTO;
 using Shop.Domain.Model.Output;
 using Shop.Domain.Model.Request;
 using Shop.Domain.Model.Response;
+using Shop.Domain.Model.Response.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -237,6 +238,64 @@ namespace Shop.Application.UseCases
             }
         }
 
+        public async Task<BaseResponse<ProductDetailDTO>> GetProductDetailAsync(Guid ProductId)
+        {
+            // lấy Thương hiệu
+            // lấy Tên
+            // số sao trung bình (số lượng lượt đánh giá)
+            // số lượng bán
+            // giảm giá
+            // thông tin chi tiết
+            // mô tả sản phẩm
+            //======
+            // thông tin các biến thể (mảng)
+            //  [
+            //      {
+            //          mã biến thể: guid
+            //          hình ảnh : value
+            //          giá : value
+            //          tồn kho: int
+            //          variation: [{key : value},...]
+            //      }, ...
+            //  ]
+
+
+
+            // productDetail: thương hiệu, tên, thông tin chi tiết, mô tả sản phẩm
+            // product: tổng số sao, số lượng bán
+            // hình ảnh: productImage lấy tất thông qua product detail id
+
+            var productDetailCommon = await _productDetailService.GetProductDetailByProductId(ProductId);
+            if (productDetailCommon == null)
+            {
+                return new BaseResponse<ProductDetailDTO>()
+                {
+                    Message = "Success",
+                    TraceId = "",
+                    Data = null
+                };
+            }
+            else
+            {
+                var productImages = await _productImageService.GetImagesByProductDetailIdAsync(productDetailCommon.Id);
+
+                var productConfig = await _productConfigurationService.GetProductConfigByProductIdAsync(productDetailCommon.ProductId);
+
+                foreach (var pc in productConfig)
+                {
+                    var variation = await _productConfigurationService.GetVariationProductAsync(pc.VariationOptionGroupId);
+                    pc.variation = variation;
+                }
+                productDetailCommon.productConfigs = productConfig;
+                productDetailCommon.Images = productImages;
+                return new BaseResponse<ProductDetailDTO>()
+                {
+                    Message = "Success",
+                    TraceId = "",
+                    Data = productDetailCommon
+                };
+            }
+        }
         public async Task<PageResponse<ProductResponse>> PagingFilterProductByCategoryAsync(string categoryName, Dictionary<string, string> conditionFilter)
         {
             /**
@@ -272,7 +331,7 @@ namespace Shop.Application.UseCases
                 conditionFilter.Remove("sortBy");
 
             }
-            
+
             var filterPaging = await _productRepository.FilterPagingProductAsync(categoryName, page, size, sortBy, conditionFilter);
 
             var result = new PageResponse<ProductResponse>

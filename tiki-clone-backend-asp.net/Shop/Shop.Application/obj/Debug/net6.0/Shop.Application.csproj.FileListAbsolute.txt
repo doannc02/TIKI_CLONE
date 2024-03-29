@@ -26,5 +26,6 @@ D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Applicatio
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Application\bin\Debug\net6.0\Shop.Application.pdb
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Application\bin\Debug\net6.0\Shop.Domain.dll
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Application\bin\Debug\net6.0\Shop.Domain.pdb
-D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Application\obj\Debug\net6.0\Shop.Application.csproj.CopyComplete
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Application\obj\Debug\net6.0\ref\Shop.Application.dll
+D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Application\obj\Debug\net6.0\Shop.Application.sourcelink.json
+D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Application\obj\Debug\net6.0\Shop.App.3200E812.Up2Date

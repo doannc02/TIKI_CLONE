@@ -32,5 +32,11 @@ namespace Shop.Controllers
             var result = await _productUseCase.PagingFilterProductByCategoryAsync(categoryName, conditions);
             return Ok(result);
         }
+        [HttpGet("detail")]
+        public async Task<IActionResult> GetDetailProductAsync([FromQuery] Guid productId)
+        {
+            var result = await _productUseCase.GetProductDetailAsync(productId);
+            return Ok(result);
+        }
     }
 }

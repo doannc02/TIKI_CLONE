@@ -21,5 +21,7 @@ namespace Shop.Domain.Interface.Repository
         /// <param name="conditions"></param>
         /// <returns></returns>
         Task<FilterPaging<ProductResponse>> FilterPagingProductAsync(string category, int page, int size, string orderBy, Dictionary<string, string> conditions);
+
+        
     }
 }

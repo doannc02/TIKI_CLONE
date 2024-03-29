@@ -10,5 +10,6 @@ namespace Shop.Application.Interface
 {
     public interface IProductImageService : IWriteService<ProductImageDTO, ProductImageDTO, ProductImageDTO>
     {
+        Task<List<string>> GetImagesByProductDetailIdAsync(Guid productDetailId);
     }
 }

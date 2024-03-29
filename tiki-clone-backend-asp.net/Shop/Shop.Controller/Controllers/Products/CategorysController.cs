@@ -17,7 +17,7 @@ namespace Shop.Controller.Controllers.Products
         {
             _categoryService = categoryService;
         }
-
+        
         [XAllowAnonymous]
         [HttpGet("filter-property/{categoryName}")]
         public async Task<IActionResult> GetFilterPropertyByNameAsync([FromRoute]string categoryName)

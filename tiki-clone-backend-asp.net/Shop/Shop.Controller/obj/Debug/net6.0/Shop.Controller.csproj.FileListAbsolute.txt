@@ -170,6 +170,7 @@ D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Controller
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Controller\obj\Debug\net6.0\staticwebassets.build.json
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Controller\obj\Debug\net6.0\staticwebassets.development.json
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Controller\obj\Debug\net6.0\scopedcss\bundle\Shop.Controller.styles.css
-D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Controller\obj\Debug\net6.0\Shop.Controller.csproj.CopyComplete
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Controller\obj\Debug\net6.0\Shop.Controller.genruntimeconfig.cache
 D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Controller\obj\Debug\net6.0\ref\Shop.Controller.dll
+D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Controller\obj\Debug\net6.0\Shop.Controller.sourcelink.json
+D:\project\tiki-clone\TIKI_CLONE\tiki-clone-backend-asp.net\Shop\Shop.Controller\obj\Debug\net6.0\Shop.Con.A65A592F.Up2Date

@@ -20,6 +20,12 @@ namespace Shop.Application.Services.ProductsService
             _productImageRepository = productImageRepository;
         }
 
+        public async Task<List<string>> GetImagesByProductDetailIdAsync(Guid productDetailId)
+        {
+            var result = await _productImageRepository.GetImagesByProductDetailAsync(productDetailId);
+            return result;
+        }
+
         protected override Task EditData(Productimage entity)
         {
             return Task.CompletedTask;

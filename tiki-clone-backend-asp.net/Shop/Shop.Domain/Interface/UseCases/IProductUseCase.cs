@@ -2,6 +2,7 @@
 using Shop.Domain.Model.Output;
 using Shop.Domain.Model.Request;
 using Shop.Domain.Model.Response;
+using Shop.Domain.Model.Response.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Shop.Domain.Interface.UseCases
         /// </summary>
         /// <param name=""></param>
         /// <returns></returns>
-        public Task<ProductCreateResponse> AddNewProduct(ProductForm productForm);
+        Task<ProductCreateResponse> AddNewProduct(ProductForm productForm);
 
         /// <summary>
         /// lấy danh sách sản phẩm (đã được phân trang) theo danh mục
@@ -25,5 +26,13 @@ namespace Shop.Domain.Interface.UseCases
         /// <param name="categoryName">tên danh mục</param>
         /// <returns>danh sách sản phẩm theo danh mục</returns>
         Task<PageResponse<ProductResponse>> PagingFilterProductByCategoryAsync(string categoryName, Dictionary<string, string> conditionFilter);
+
+        /// <summary>
+        /// lấy chi tiết sản phẩm theo id
+        /// </summary>
+        /// <param name="ProductId"></param>
+        /// <returns></returns>
+        Task<BaseResponse<ProductDetailDTO>> GetProductDetailAsync(Guid ProductId);
+
     }
 }

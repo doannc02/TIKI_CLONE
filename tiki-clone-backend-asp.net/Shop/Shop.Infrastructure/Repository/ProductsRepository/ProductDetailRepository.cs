@@ -1,4 +1,5 @@
-﻿using Shop.Application.UnitOfWork;
+﻿using Dapper;
+using Shop.Application.UnitOfWork;
 using Shop.Domain.Entity;
 using Shop.Domain.Interface.Repository;
 using System;
@@ -13,6 +14,19 @@ namespace Shop.Infrastructure.Repository
     {
         public ProductDetailRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
+        }
+
+        public async Task<Productdetail> GetProductdetailByProductId(Guid productId)
+        {
+            string sql = "SELECT pd.Id, pd.productId, pd.Name, pd.Brand, pd.InfoDetail, pd.Description, pd.TotalSell, pd.TotalRating, pd.TotalStar FROM productdetail pd" +
+                " WHERE pd.ProductId = @productId;";
+
+            DynamicParameters parameters = new();
+            parameters.Add("productId", productId);
+
+            var result = await _dbConnection.QueryFirstOrDefaultAsync<Productdetail>(sql, parameters);
+
+            return result;
         }
     }
 }

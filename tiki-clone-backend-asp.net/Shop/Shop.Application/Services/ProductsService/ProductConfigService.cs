@@ -5,6 +5,7 @@ using Shop.Domain.Entity;
 using Shop.Domain.Interface.Repository;
 using Shop.Domain.Interface.Repository.ProductsRepository;
 using Shop.Domain.Model.DTO;
+using Shop.Domain.Model.Output;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,18 @@ namespace Shop.Application.Services.ProductsService
         public ProductConfigService(IProductConfigurationRepository productConfigurationRepository, IMapper mapper) : base(productConfigurationRepository, mapper)
         {
             _productConfigurationRepository = productConfigurationRepository;
+        }
+
+        public async Task<List<ProductConfigResponse>> GetProductConfigByProductIdAsync(Guid productId)
+        {
+            var result = await _productConfigurationRepository.GetProductConfigurationByProductIdAsync(productId);
+            return result;
+        }
+
+        public async Task<Dictionary<string, string>> GetVariationProductAsync(Guid productConfigId)
+        {
+            var result = await _productConfigurationRepository.GetVariationProductAsync(productConfigId);
+            return result;
         }
 
         protected override Task EditData(Productconfiguration entity)

@@ -20,6 +20,13 @@ namespace Shop.Application.Services.ProductsService
             _productDetailRepository = productDetailRepository;
         }
 
+        public async Task<ProductDetailDTO> GetProductDetailByProductId(Guid productId)
+        {
+            var result = await _productDetailRepository.GetProductdetailByProductId(productId);
+            var resultDTO = MapEntityToEntiyDTO(result);
+            return resultDTO;
+        }
+
         protected override Task EditData(Productdetail entity)
         {
             // thêm Id, tổng số sao, tổng số đánh giá, tổng số bán

@@ -9,5 +9,11 @@ namespace Shop.Domain.Interface.Repository
 {
     public interface IProductDetailRepository : IWriteRepository<Productdetail>
     {
+        /// <summary>
+        /// lấy thông tin chi tiết theo product id
+        /// </summary>
+        /// <param name="productId"></param>
+        /// <returns></returns>
+        Task<Productdetail> GetProductdetailByProductId(Guid productId);
     }
 }
