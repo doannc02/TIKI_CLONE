@@ -29,9 +29,13 @@ namespace Shop.Infrastructure
             if (dbContextTransaction != null)
             {
                 await _dbContext.Database.UseTransactionAsync(dbContextTransaction);
+                _ = await _dbSet.AddAsync(entity);
             }
-            _ = await _dbSet.AddAsync(entity);
-            await _dbContext.SaveChangesAsync();
+            else
+            {
+                _ = await _dbSet.AddAsync(entity);
+                _dbContext.SaveChanges();
+            }
             return entity;
         }
 

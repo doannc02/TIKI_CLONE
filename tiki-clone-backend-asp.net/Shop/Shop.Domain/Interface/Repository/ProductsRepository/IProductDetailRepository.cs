@@ -15,5 +15,13 @@ namespace Shop.Domain.Interface.Repository
         /// <param name="productId"></param>
         /// <returns></returns>
         Task<Productdetail> GetProductdetailByProductId(Guid productId);
+
+        /// <summary>
+        /// kiểm tra có thông tin của sản phẩm không
+        /// Nếu có trả về true, ngược lại trả về false
+        /// </summary>
+        /// <param name="productDetailId"></param>
+        /// <returns></returns>
+        Task<bool> IsHasProductDetail(Guid productDetailId);
     }
 }

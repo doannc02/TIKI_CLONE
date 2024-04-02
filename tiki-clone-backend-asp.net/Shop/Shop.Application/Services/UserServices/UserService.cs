@@ -18,10 +18,12 @@ namespace Shop.Application.Services.UserServices
     public class UserService : WriteService<User, UserDTO, UserCreateDTO, UserUpdateDTO>, IUserService
     {
         private readonly IUserRepository _userRepository;
+        private readonly IRoleRepository _roleRepository;
         private readonly IConfiguration _configuration;
-        public UserService(IUserRepository userRepository, IMapper mapper, IConfiguration configuration) : base(userRepository, mapper)
+        public UserService(IUserRepository userRepository, IRoleRepository roleRepository, IMapper mapper, IConfiguration configuration) : base(userRepository, mapper)
         {
             _userRepository = userRepository;
+            _roleRepository = roleRepository;
             _configuration = configuration;
         }
 
@@ -38,6 +40,9 @@ namespace Shop.Application.Services.UserServices
 
             // thêm trạng thái của người dùng
             user.Status = 1;
+
+            // thêm quyền cho người dùng
+            user.RoleId = await _roleRepository.GetIdByNameAsync("User");
         }
 
         protected override async Task ValidateLogicBusiness(User entity)

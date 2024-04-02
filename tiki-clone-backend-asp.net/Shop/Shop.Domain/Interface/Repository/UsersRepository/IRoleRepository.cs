@@ -15,5 +15,12 @@ namespace Shop.Domain.Interface.Repository
         /// <param name="id">id của Role</param>
         /// <returns>Tên Role cần lấy</returns>
         Task<int> GetCodeByIdAsync(Guid id);
+
+        /// <summary>
+        /// lấy mã role theo tên role
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        Task<Guid> GetIdByNameAsync(string name);
     }
 }

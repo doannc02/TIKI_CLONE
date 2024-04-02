@@ -28,5 +28,15 @@ namespace Shop.Infrastructure.Repository
 
             return result;
         }
+
+        public async Task<bool> IsHasProductDetail(Guid productDetailId)
+        {
+            string sql = "SELECT COUNT(p.Id) as NumOfProduct FROM productdetail p WHERE p.Id = @productDetailId;";
+            DynamicParameters parameters = new();
+            parameters.Add("productDetailId", productDetailId);
+            var result = await _dbConnection.QuerySingleOrDefaultAsync<int>(sql, parameters);
+
+            return result != 0;
+        }
     }
 }

@@ -3,7 +3,84 @@
   "WorkspaceRootPath": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.controller\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|solutionrelative:controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\usersrepository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA377B9-8975-44BB-A99F-E92DB543ACD6}|..\\Shop.Application\\Shop.Application.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.application\\services\\userservices\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.controller\\middleware\\authenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|solutionrelative:middleware\\authenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA377B9-8975-44BB-A99F-E92DB543ACD6}|..\\Shop.Application\\Shop.Application.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.application\\services\\base\\writeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA377B9-8975-44BB-A99F-E92DB543ACD6}|..\\Shop.Application\\Shop.Application.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.application\\services\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\baserepository\\base\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\repository\\usersrepository\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA377B9-8975-44BB-A99F-E92DB543ACD6}|..\\Shop.Application\\Shop.Application.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.application\\usecases\\userusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\context\\shopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA377B9-8975-44BB-A99F-E92DB543ACD6}|..\\Shop.Application\\Shop.Application.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.application\\usecases\\orderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\ordersrepository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\ordersrepository\\shoppingcartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\productsrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1FA377B9-8975-44BB-A99F-E92DB543ACD6}|..\\Shop.Application\\Shop.Application.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.application\\usecases\\productusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\repository\\ordersrepository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\repository\\ordersrepository\\ishoppingcartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\productsrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\usecases\\iorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\productsrepository\\productdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\repository\\productsrepository\\iproductdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\productsrepository\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\repository\\productsrepository\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\usecases\\iproductusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\productsrepository\\productconfigurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -21,9 +98,6 @@
       "AbsoluteMoniker": "D:0:0:{1FA377B9-8975-44BB-A99F-E92DB543ACD6}|..\\Shop.Application\\Shop.Application.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.application\\services\\productsservice\\productdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\productsrepository\\productdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.controller\\controllers\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|solutionrelative:controllers\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,22 +108,11 @@
       "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\model\\dto\\productdto\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\usecases\\iproductusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.controller\\controllers\\products\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|solutionrelative:controllers\\products\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.controller\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|solutionrelative:controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\customattibute\\authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.controller\\middleware\\authenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{562A17E8-C94D-408F-8D5F-EAC0B8AA2554}|Shop.Controller.csproj|solutionrelative:middleware\\authenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\enum\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -79,16 +142,10 @@
       "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\repository\\productsrepository\\iproductimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\repository\\productsrepository\\iproductdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\repository\\productsrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\model\\output\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\productsrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\entity\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -104,9 +161,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\interface\\repository\\productsrepository\\ivariationoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B36BB5E-54A3-4F72-B70F-510594AAC8FA}|..\\Shop.Infrastructure\\Shop.Infrastructure.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.infrastructure\\repository\\baserepository\\base\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{055F01F4-9145-49CA-ADA9-1F3C1198F306}|..\\Shop.Domain\\Shop.Domain.csproj|d:\\project\\tiki-clone\\tiki_clone\\tiki-clone-backend-asp.net\\shop\\shop.domain\\model\\output\\filterpaging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -149,20 +203,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "ProductUseCase.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\UseCases\\ProductUseCase.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\UseCases\\ProductUseCase.cs",
               "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\UseCases\\ProductUseCase.cs",
               "RelativeToolTip": "..\\Shop.Application\\UseCases\\ProductUseCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkBAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T17:14:09.14Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\UserServices\\RoleService.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Application\\Services\\UserServices\\RoleService.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\UserServices\\RoleService.cs",
+              "RelativeToolTip": "..\\Shop.Application\\Services\\UserServices\\RoleService.cs",
+              "ViewState": "AQIAAA4AAAAAmJmZmZn5vxkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T13:36:11.563Z",
               "EditorCaption": ""
             },
             {
@@ -172,18 +238,293 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductImageRepository.cs",
-              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductImageRepository.cs",
-              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductImageRepository.cs",
-              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductImageRepository.cs",
-              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductImageRepository.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBYAAAAxAAAA",
+              "Title": "AuthenMiddleware.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\Middleware\\AuthenMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\AuthenMiddleware.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\Middleware\\AuthenMiddleware.cs",
+              "RelativeToolTip": "Middleware\\AuthenMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T07:58:59.277Z"
+              "WhenOpened": "2024-03-27T09:27:27.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\UsersRepository\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\UsersRepository\\RoleRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\UsersRepository\\RoleRepository.cs",
+              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\UsersRepository\\RoleRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAEBTPScAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T13:16:26.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\Controllers\\Users\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Users\\UsersController.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\Controllers\\Users\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\Users\\UsersController.cs",
+              "ViewState": "AQIAADUAAAAgZmZmZmYiwDoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:25:49.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WriteRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\WriteRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\WriteRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\WriteRepository.cs",
+              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\WriteRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADgvxsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T09:19:56.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Entity\\Role.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Domain\\Entity\\Role.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Entity\\Role.cs",
+              "RelativeToolTip": "..\\Shop.Domain\\Entity\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:50:56.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Domain\\Entity\\User.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Entity\\User.cs",
+              "RelativeToolTip": "..\\Shop.Domain\\Entity\\User.cs",
+              "ViewState": "AQIAABsAAADgmJmZmZk3wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:51:05.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\UserServices\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Application\\Services\\UserServices\\UserService.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\UserServices\\UserService.cs",
+              "RelativeToolTip": "..\\Shop.Application\\Services\\UserServices\\UserService.cs",
+              "ViewState": "AQIAABgAAACA+////z8nwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T13:12:24.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WriteService.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\Base\\WriteService.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Application\\Services\\Base\\WriteService.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\Base\\WriteService.cs",
+              "RelativeToolTip": "..\\Shop.Application\\Services\\Base\\WriteService.cs",
+              "ViewState": "AQIAACQAAAAAzMzMzMwIwDYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:49:25.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\UsersRepository\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\UsersRepository\\IRoleRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\UsersRepository\\IRoleRepository.cs",
+              "RelativeToolTip": "..\\Shop.Domain\\Interface\\Repository\\UsersRepository\\IRoleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T13:16:39.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserUseCase.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\UseCases\\UserUseCase.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Application\\UseCases\\UserUseCase.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\UseCases\\UserUseCase.cs",
+              "RelativeToolTip": "..\\Shop.Application\\UseCases\\UserUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAMzMzMzMrwGYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T14:30:21.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShopDbContext.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\Context\\ShopDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\Context\\ShopDbContext.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\Context\\ShopDbContext.cs",
+              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\Context\\ShopDbContext.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAuwGkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T13:02:28.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderUseCase.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\UseCases\\OrderUseCase.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Application\\UseCases\\OrderUseCase.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\UseCases\\OrderUseCase.cs",
+              "RelativeToolTip": "..\\Shop.Application\\UseCases\\OrderUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T13:55:35.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ShoppingCartItemRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\OrdersRepository\\ShoppingCartItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\OrdersRepository\\ShoppingCartItemRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\OrdersRepository\\ShoppingCartItemRepository.cs",
+              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\OrdersRepository\\ShoppingCartItemRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T14:09:22.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\OrdersRepository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\OrdersRepository\\OrderRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\OrdersRepository\\OrderRepository.cs",
+              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\OrdersRepository\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T16:23:36.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\CategoryRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\CategoryRepository.cs",
+              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T16:24:14.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\OrdersRepository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\OrdersRepository\\IOrderRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\OrdersRepository\\IOrderRepository.cs",
+              "RelativeToolTip": "..\\Shop.Domain\\Interface\\Repository\\OrdersRepository\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T16:21:31.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IShoppingCartItemRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\OrdersRepository\\IShoppingCartItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\OrdersRepository\\IShoppingCartItemRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\OrdersRepository\\IShoppingCartItemRepository.cs",
+              "RelativeToolTip": "..\\Shop.Domain\\Interface\\Repository\\OrdersRepository\\IShoppingCartItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T14:10:53.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductRepository.cs",
+              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductRepository.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAuwHUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:09:35.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IOrderUseCase.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\UseCases\\IOrderUseCase.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\UseCases\\IOrderUseCase.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\UseCases\\IOrderUseCase.cs",
+              "RelativeToolTip": "..\\Shop.Domain\\Interface\\UseCases\\IOrderUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T13:41:40.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductDetailRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductDetailRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductDetailRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductDetailRepository.cs",
+              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductDetailRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA6wCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T07:26:23.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProductDetailRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductDetailRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductDetailRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductDetailRepository.cs",
+              "RelativeToolTip": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductDetailRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T07:20:49.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\BrandRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\BrandRepository.cs",
+              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\BrandRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T14:14:55.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IBrandRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IBrandRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IBrandRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IBrandRepository.cs",
+              "RelativeToolTip": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IBrandRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T14:13:14.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "ProductConfigService.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\ProductsService\\ProductConfigService.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\Services\\ProductsService\\ProductConfigService.cs",
@@ -195,7 +536,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 25,
+              "Title": "IProductUseCase.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\UseCases\\IProductUseCase.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\UseCases\\IProductUseCase.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\UseCases\\IProductUseCase.cs",
+              "RelativeToolTip": "..\\Shop.Domain\\Interface\\UseCases\\IProductUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T02:18:10.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductImageRepository.cs",
+              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductImageRepository.cs",
+              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductImageRepository.cs",
+              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductImageRepository.cs",
+              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductImageRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T07:58:59.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ProductConfigurationRepository.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductConfigurationRepository.cs",
               "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductConfigurationRepository.cs",
@@ -207,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 29,
               "Title": "ProductImageService.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\ProductsService\\ProductImageService.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\Services\\ProductsService\\ProductImageService.cs",
@@ -219,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 30,
               "Title": "ProductDetailService.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\ProductsService\\ProductDetailService.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\Services\\ProductsService\\ProductDetailService.cs",
@@ -231,19 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductDetailRepository.cs",
-              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductDetailRepository.cs",
-              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductDetailRepository.cs",
-              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductDetailRepository.cs",
-              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductDetailRepository.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBIAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T07:26:23.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 31,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\Controllers\\Products\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\Products\\ProductsController.cs",
@@ -251,11 +604,12 @@
               "RelativeToolTip": "Controllers\\Products\\ProductsController.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAwwCUAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T17:12:03.227Z"
+              "WhenOpened": "2024-03-19T17:12:03.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 32,
               "Title": "BaseResponse.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Model\\Response\\Base\\BaseResponse.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Model\\Response\\Base\\BaseResponse.cs",
@@ -267,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 33,
               "Title": "ProductDetailDTO.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Model\\DTO\\ProductDTO\\ProductDetailDTO.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Model\\DTO\\ProductDTO\\ProductDetailDTO.cs",
@@ -279,19 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IProductUseCase.cs",
-              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\UseCases\\IProductUseCase.cs",
-              "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\UseCases\\IProductUseCase.cs",
-              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\UseCases\\IProductUseCase.cs",
-              "RelativeToolTip": "..\\Shop.Domain\\Interface\\UseCases\\IProductUseCase.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAgwCIAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T02:18:10.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 34,
               "Title": "CategorysController.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\Controllers\\Products\\CategorysController.cs",
               "RelativeDocumentMoniker": "Controllers\\Products\\CategorysController.cs",
@@ -303,31 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\Controllers\\Users\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\Users\\UsersController.cs",
-              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\Controllers\\Users\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\Users\\UsersController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAowDoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:25:49.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthenMiddleware.cs",
-              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\Middleware\\AuthenMiddleware.cs",
-              "RelativeDocumentMoniker": "Middleware\\AuthenMiddleware.cs",
-              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Controller\\Middleware\\AuthenMiddleware.cs",
-              "RelativeToolTip": "Middleware\\AuthenMiddleware.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:27:27.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 35,
               "Title": "AuthorizeAttribute.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\CustomAttibute\\AuthorizeAttribute.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\CustomAttibute\\AuthorizeAttribute.cs",
@@ -339,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 36,
               "Title": "Roles.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Enum\\Roles.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Enum\\Roles.cs",
@@ -351,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 37,
               "Title": "ProductConfigResponse.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Model\\Output\\ProductConfigResponse.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Model\\Output\\ProductConfigResponse.cs",
@@ -363,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 38,
               "Title": "IProductConfigurationService.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Interface\\ProductsService\\IProductConfigurationService.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\Interface\\ProductsService\\IProductConfigurationService.cs",
@@ -375,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 39,
               "Title": "ProductDetailResponse.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Model\\Output\\ProductDetailResponse.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Model\\Output\\ProductDetailResponse.cs",
@@ -387,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 40,
               "Title": "Variation.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Model\\Output\\Variation.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Model\\Output\\Variation.cs",
@@ -399,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 41,
               "Title": "IProductConfigurationRepository.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductConfigurationRepository.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductConfigurationRepository.cs",
@@ -411,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 42,
               "Title": "IProductDetailService.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Interface\\ProductsService\\IProductDetailService.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\Interface\\ProductsService\\IProductDetailService.cs",
@@ -423,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 43,
               "Title": "IProductImageService.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Interface\\ProductsService\\IProductImageService.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\Interface\\ProductsService\\IProductImageService.cs",
@@ -435,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 44,
               "Title": "IProductImageRepository.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductImageRepository.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductImageRepository.cs",
@@ -447,31 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IProductDetailRepository.cs",
-              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductDetailRepository.cs",
-              "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductDetailRepository.cs",
-              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductDetailRepository.cs",
-              "RelativeToolTip": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductDetailRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T07:20:49.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductRepository.cs",
-              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductRepository.cs",
-              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\ProductRepository.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAYwHUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T14:09:35.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 45,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductRepository.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IProductRepository.cs",
@@ -483,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 48,
               "Title": "ProductDetailResponse.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Model\\Response\\ProductDetailResponse.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Model\\Response\\ProductDetailResponse.cs",
@@ -495,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 46,
               "Title": "ProductResponse.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Model\\Output\\ProductResponse.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Model\\Output\\ProductResponse.cs",
@@ -507,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 47,
               "Title": "Productconfiguration.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Entity\\Productconfiguration.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Entity\\Productconfiguration.cs",
@@ -519,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 49,
               "Title": "PageResponse.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Model\\Response\\PageResponse.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Model\\Response\\PageResponse.cs",
@@ -531,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 50,
               "Title": "VariationOptionRepository.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\VariationOptionRepository.cs",
               "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\VariationOptionRepository.cs",
@@ -543,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 51,
               "Title": "IVariationOptionRepository.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IVariationOptionRepository.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IVariationOptionRepository.cs",
@@ -555,19 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "WriteRepository.cs",
-              "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\WriteRepository.cs",
-              "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\WriteRepository.cs",
-              "ToolTip": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\WriteRepository.cs",
-              "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\WriteRepository.cs",
-              "ViewState": "AQIAAB0AAAAAZGZmZmYewDAAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T09:19:56.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 52,
               "Title": "FIlterPaging.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Model\\Output\\FIlterPaging.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Model\\Output\\FIlterPaging.cs",
@@ -579,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 53,
               "Title": "ReadRepository.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\ReadRepository.cs",
               "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\ReadRepository.cs",
@@ -591,7 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 54,
               "Title": "VariationRepository.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Infrastructure\\Repository\\ProductsRepository\\VariationRepository.cs",
               "RelativeDocumentMoniker": "..\\Shop.Infrastructure\\Repository\\ProductsRepository\\VariationRepository.cs",
@@ -603,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 56,
               "Title": "ReadService.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\Base\\ReadService.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\Services\\Base\\ReadService.cs",
@@ -615,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 55,
               "Title": "IVariationRepositry.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IVariationRepositry.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\ProductsRepository\\IVariationRepositry.cs",
@@ -627,7 +909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 57,
               "Title": "IReadService.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Interface\\Base\\IReadService.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\Interface\\Base\\IReadService.cs",
@@ -639,7 +921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 58,
               "Title": "IReadRepository.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Interface\\Repository\\Base\\IReadRepository.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Interface\\Repository\\Base\\IReadRepository.cs",
@@ -651,7 +933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 61,
               "Title": "IVariationService.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Interface\\ProductsService\\IVariationService.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\Interface\\ProductsService\\IVariationService.cs",
@@ -663,7 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 60,
               "Title": "VariationService.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Application\\Services\\ProductsService\\VariationService.cs",
               "RelativeDocumentMoniker": "..\\Shop.Application\\Services\\ProductsService\\VariationService.cs",
@@ -675,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 59,
               "Title": "VariationDTO.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Model\\DTO\\VariationDTO\\VariationDTO.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Model\\DTO\\VariationDTO\\VariationDTO.cs",
@@ -687,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 62,
               "Title": "Variation.cs",
               "DocumentMoniker": "D:\\project\\tiki-clone\\TIKI_CLONE\\tiki-clone-backend-asp.net\\Shop\\Shop.Domain\\Entity\\Variation.cs",
               "RelativeDocumentMoniker": "..\\Shop.Domain\\Entity\\Variation.cs",

@@ -24,9 +24,20 @@ namespace Shop.Infrastructure.Repository
             DynamicParameters parameters = new();
             parameters.Add("id", id);
 
-            var code = await _dbConnection.QueryFirstOrDefaultAsync<int>(sql);
+            var code = await _dbConnection.QueryFirstOrDefaultAsync<int>(sql, parameters);
 
             return code;
+        }
+
+        public async Task<Guid> GetIdByNameAsync(string name)
+        {
+            string sql = $"SELECT Id FROM `role` r WHERE r.`Name` = @name;";
+
+            DynamicParameters parameters = new();
+            parameters.Add("name", name);
+
+            var id = await _dbConnection.QuerySingleOrDefaultAsync<Guid>(sql, parameters);
+            return id;
         }
     }
 }
