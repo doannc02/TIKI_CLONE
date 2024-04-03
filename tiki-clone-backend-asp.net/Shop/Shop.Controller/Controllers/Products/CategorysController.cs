@@ -25,5 +25,11 @@ namespace Shop.Controller.Controllers.Products
             var result = await _categoryService.GetFilterPropertiesByAsync(categoryName);
             return Ok(result);
         }
+
+        [HttpGet("category-tree")]
+        public async Task<IActionResult> GetCategoryTree()
+        {
+            return Ok(await _categoryService.GetCategoryTreeAsync());
+        }
     }
 }

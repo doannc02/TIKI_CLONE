@@ -43,7 +43,7 @@ namespace Shop.Domain.Interface.Repository
         /// <param name="entity"></param>
         /// <returns>entity đã bị xóa</returns>
         /// author: Trương Mạnh Quang (28/10/2023)
-        T Delete(T entity);
+        Task<T> Delete(T entity, DbTransaction? dbContextTransaction = null);
         /// <summary>
         /// xóa nhiều bản ghi
         /// </summary>

@@ -120,7 +120,7 @@ namespace Shop.Application.UseCases
                             if (variationExisted == null)
                             {
                                 // thêm variation vào DB
-                                var attributeCreated = await _variationService.CreateAsync(new VariationDTO() { Id = new Guid(), Name = key, Discription = null }, transaction);
+                                var attributeCreated = await _variationService.CreateAsync(new VariationDTO() { Name = key, Discription = null }, transaction);
                                 attributeCreatedList.Add(attributeCreated);
                             }
                             else

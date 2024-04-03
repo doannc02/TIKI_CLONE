@@ -79,7 +79,7 @@ namespace Shop.Application.Services.Base
             // map entityDTO sang entity
             var entity = MapTEntityDtoToTEntity(entityDTO);
             // xóa khỏi DB
-            var entityDeleted = _writeRepository.Delete(entity);
+            var entityDeleted = await _writeRepository.Delete(entity);
             // map entity sang entityDTO
             var entityDTODeleted = MapEntityToEntiyDTO(entityDeleted);
 
@@ -98,15 +98,7 @@ namespace Shop.Application.Services.Base
 
         public TEntityDTO Update(TEntityUpdateDTO entityUpdatedDTO)
         {
-            // map entity update dto to entity
-            var entity = MapTEntityUpdateDtoToTEntity(entityUpdatedDTO);
-            // xóa khỏi DB
-            var entitiesDeleted = _writeRepository.Delete(entity);
-            // map entity qua entityDTO
-            var entityDtoDeleted = MapEntityToEntiyDTO(entitiesDeleted);
-
-            return entityDtoDeleted;
-
+            throw new NotImplementedException();
         }
 
         public int UpdateMany(List<TEntityUpdateDTO> entities)

@@ -9,7 +9,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Encodings.Web;
+using System.Text.Json;
+using System.Text.Unicode;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace Shop.Application.Services.ProductsService
 {
@@ -34,6 +38,35 @@ namespace Shop.Application.Services.ProductsService
         public async Task<List<FilterProperty>> GetFilterPropertiesByAsync(string categoryName)
         {
             return await _categoryRepository.GetFilterPropertiesByAsync(categoryName);
+        }
+
+        public async Task<string> GetCategoryTreeAsync()
+        {
+            var categorys = await _categoryRepository.GetAllAsync();
+            var categoryDTOs = MapListEntityToListEntityDTO(categorys.ToList());
+            Dictionary<Guid, CategoryDTO> categoryDictionary = new Dictionary<Guid, CategoryDTO>();
+
+            foreach (var category in categoryDTOs)
+            {
+                categoryDictionary.Add(category.Id, category);
+            }
+
+            foreach (var category in categoryDTOs)
+            {
+                if (category.ParentId.HasValue && categoryDictionary.ContainsKey(category.ParentId.Value))
+                {
+                    CategoryDTO parentCategory = categoryDictionary[category.ParentId.Value];
+                    if (parentCategory.Subcategories == null)
+                    {
+                        parentCategory.Subcategories = new List<CategoryDTO>();
+                    }
+                    parentCategory.Subcategories.Add(category);
+                }
+            }
+
+            List<CategoryDTO> rootCategories = categoryDTOs.FindAll(c => !c.ParentId.HasValue);
+
+            return JsonSerializer.Serialize(rootCategories);
         }
     }
 }

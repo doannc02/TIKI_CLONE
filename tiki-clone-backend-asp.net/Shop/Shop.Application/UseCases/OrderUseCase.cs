@@ -54,7 +54,7 @@ namespace Shop.Application.UseCases
             var item = await _shoppingCartItemRepository.GetByIdAsync(productDetailId);
             if (item != null)
             {
-                _shoppingCartItemRepository.Delete(item);
+                await _shoppingCartItemRepository.Delete(item);
             }
         }
 

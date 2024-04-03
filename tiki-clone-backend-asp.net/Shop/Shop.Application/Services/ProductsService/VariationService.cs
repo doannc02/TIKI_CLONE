@@ -26,7 +26,6 @@ namespace Shop.Application.Services.ProductsService
         protected override Task EditData(Variation entity)
         {
             // thêm id
-            entity.Id = new Guid();
             return Task.CompletedTask;
         }
 

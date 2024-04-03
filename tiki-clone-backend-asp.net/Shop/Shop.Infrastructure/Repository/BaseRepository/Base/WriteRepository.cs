@@ -50,9 +50,18 @@ namespace Shop.Infrastructure
             return entities;
         }
 
-        public virtual T Delete(T entity)
+        public virtual async Task<T> Delete(T entity, DbTransaction? dbContextTransaction = null)
         {
-            _dbSet.Remove(entity);
+            if (dbContextTransaction != null)
+            {
+                await _dbContext.Database.UseTransactionAsync(dbContextTransaction);
+                _dbSet.Remove(entity);
+            }
+            else
+            {
+                _dbSet.Remove(entity);
+                _dbContext.SaveChanges();
+            }
             return entity;
         }
 
