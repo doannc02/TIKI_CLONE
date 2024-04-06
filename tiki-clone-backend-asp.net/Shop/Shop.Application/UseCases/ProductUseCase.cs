@@ -104,10 +104,10 @@ namespace Shop.Application.UseCases
 
                 // thêm thông tin biến thể
                 var variationList = productForm.Variations?.ToList();
-                if (variationList != null)
+                if (variationList != null && variationList.Count > 0)
                 {
                     // thêm variation
-                    var variation0 = variationList[0].VariationOptionGroup;
+                    var variation0 = variationList.First().VariationOptionGroup;
                     var attributeCreatedList = new List<VariationDTO>();
                     if (variation0 != null && variation0.Keys != null)
                     {

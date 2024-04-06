@@ -27,6 +27,7 @@ namespace Shop.Domain.Model.Request
 
         public ICollection<IFormFile>? Images { get; set; }
 
-        public ICollection<VariationForm>? Variations { get; set; } = new List<VariationForm>();
+        [Required(ErrorMessage = "Thông tin biến thể không được để trống.")]
+        public ICollection<VariationForm> Variations { get; set; } = new List<VariationForm>();
     }
 }

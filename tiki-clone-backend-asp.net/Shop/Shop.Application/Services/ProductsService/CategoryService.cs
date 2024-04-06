@@ -5,6 +5,7 @@ using Shop.Domain.Entity;
 using Shop.Domain.Interface.Repository;
 using Shop.Domain.Model.DTO;
 using Shop.Domain.Model.Output;
+using Shop.Domain.Model.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -65,6 +66,13 @@ namespace Shop.Application.Services.ProductsService
             }
 
             List<CategoryDTO> rootCategories = categoryDTOs.FindAll(c => !c.ParentId.HasValue);
+
+            //var result = new PageResponse<List<CategoryDTO>>()
+            //{
+            //    Message = "Success",
+            //    TraceId = "",
+            //    Data = rootCategories;
+            //}
 
             return JsonSerializer.Serialize(rootCategories);
         }

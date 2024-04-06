@@ -28,38 +28,28 @@ namespace Shop.Application.Services.Base
             _mapper = mapper;
         }
 
-        //public async Task<FilterPaging<TEntityDTO>> FillterPagingAsync(Dictionary<string, string> conditionFilter)
-        //{
-        //    int page = 0;
-        //    int size = 0;
-        //    if (conditionFilter.ContainsKey("page"))
-        //    {
-        //        var pageString = conditionFilter["page"];
-        //        _ = int.TryParse(pageString, out page);
-        //    }
-        //    if (conditionFilter.ContainsKey("size"))
-        //    {
-        //        var sizeString = conditionFilter["size"];
-        //        _ = int.TryParse(sizeString, out size);
-        //    }
+        public async Task<PageResponse<TEntityDTO>> FillterPagingAsync(int page, int size, string? search)
+        {
+            var filterPagingEntity = await _readRepository.FillterPagingAsync(page, size, search);
 
-            
+            var listEntityDTOFilter = MapListEntityToListEntityDTO(filterPagingEntity.Items);
 
-        //    var filterPagingEntity = await _readRepository.FillterPagingAsync(page, size, "");
+            var filterPagingEntityDTO = new FilterPaging<TEntityDTO>()
+            {
+                TotalPage = filterPagingEntity.TotalPage,
+                TotalRecord = filterPagingEntity.TotalRecord,
+                Page = filterPagingEntity.Page,
+                Size = filterPagingEntity.Size,
+                Items = listEntityDTOFilter
+            };
 
-        //    var listEntityDTOFilter = MapListEntityToListEntityDTO(filterPagingEntity.Items);
-
-        //    var filterPagingEntityDTO = new FilterPaging<TEntityDTO>()
-        //    {
-        //        TotalPage = filterPagingEntity.TotalPage,
-        //        TotalRecord = filterPagingEntity.TotalRecord,
-        //        Page = filterPagingEntity.Page,
-        //        Size = filterPagingEntity.Size,
-        //        Items = listEntityDTOFilter
-        //    };
-
-        //    return filterPagingEntityDTO;
-        //}
+            return new PageResponse<TEntityDTO>()
+            {
+                Message = "Success",
+                TraceId = "",
+                Data = filterPagingEntityDTO
+            };
+        }
         public async Task<IEnumerable<TEntityDTO>> GetAllAsync()
         {
             var entities = await _readRepository.GetAllAsync();

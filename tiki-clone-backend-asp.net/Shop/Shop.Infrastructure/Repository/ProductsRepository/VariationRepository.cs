@@ -2,6 +2,7 @@
 using Shop.Application.UnitOfWork;
 using Shop.Domain.Entity;
 using Shop.Domain.Interface.Repository;
+using Shop.Domain.Model.Output;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
@@ -15,6 +16,12 @@ namespace Shop.Infrastructure.Repository
     {
         public VariationRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
+        }
+
+        public override Task<FilterPaging<Variation>> FillterPagingAsync(int pageNumber, int pageSize, string search)
+        {
+            throw new NotImplementedException();
+            //return base.FillterPagingAsync(pageNumber, pageSize, search);
         }
 
         public async Task<Variation> GetByNameAsync(string name, DbTransaction? dbTransaction = null)

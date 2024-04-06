@@ -55,6 +55,12 @@ namespace Shop.Controllers
             return Ok(result);
         }
 
+        [HttpGet("filter")]
+        public async Task<IActionResult> FilterPagingAsync([FromQuery] int page, [FromQuery] int size, [FromQuery] string? search)
+        {
+            var result = await _readService.FillterPagingAsync(page: page, size: size, search: search);
 
+            return Ok(result);
+        }
     }
 }

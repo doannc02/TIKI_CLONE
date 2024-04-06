@@ -1,6 +1,7 @@
 ﻿using Shop.Domain.Model;
 using Shop.Domain.Model.Input;
 using Shop.Domain.Model.Output;
+using Shop.Domain.Model.Response;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
@@ -40,18 +41,11 @@ namespace Shop.Application.Interface
         /// /// author: Trương Mạnh Quang (4/11/2023)
         Task<TEntityDTO> GetByCodeAsync(string code, DbTransaction? dbTransaction = null);
         /// <summary>
-        /// lọc bản ghi
-        /// </summary>
-        /// <param name="filterInput"></param>
-        /// <returns>danh sách các bản ghi đã được lọc</returns>
-        /// author: Trương Mạnh Quang (4/11/2023)
-        //Task<IEnumerable<TEntityDTO>> FilterAsync(FilterInput filterInput);
-        /// <summary>
         /// lọc và phân trang bản ghi
         /// </summary>
         /// <param name="filterInput"></param>
         /// <returns>danh sách đã được lọc và phân trang</returns>
         /// author: Trương Mạnh Quang (4/11/2023)
-        //Task<FilterPaging<TEntityDTO>> FillterPagingAsync(Dictionary<string, string> conditionFilter);
+        Task<PageResponse<TEntityDTO>> FillterPagingAsync(int page, int size, string? search);
     }
 }
