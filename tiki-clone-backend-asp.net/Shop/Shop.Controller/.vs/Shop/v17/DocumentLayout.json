@@ -266,8 +266,11 @@
               "ViewState": "AQIAAE4AAAAAMzMzMzMnwDEAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T17:14:09.14Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -279,12 +282,7 @@
               "RelativeToolTip": "Controllers\\Base\\ReadController.cs",
               "ViewState": "AQIAAAQAAACALjMzMzMLwDoAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T10:37:47.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-04-06T10:37:47.898Z"
             },
             {
               "$type": "Document",
@@ -296,8 +294,7 @@
               "RelativeToolTip": "..\\Shop.Application\\Services\\Base\\ReadService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwB4AAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T14:08:42.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T14:08:42.239Z"
             },
             {
               "$type": "Document",
@@ -322,8 +319,7 @@
               "RelativeToolTip": "..\\Shop.Infrastructure\\Repository\\BaseRepository\\Base\\ReadRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwB0AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T14:06:21.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T14:06:21.483Z"
             },
             {
               "$type": "Document",
@@ -335,8 +331,7 @@
               "RelativeToolTip": "..\\Shop.Application\\Interface\\Base\\IReadService.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAIwDAAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T14:08:16.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T14:08:16.571Z"
             },
             {
               "$type": "Document",
@@ -348,8 +343,7 @@
               "RelativeToolTip": "..\\Shop.Domain\\Model\\Response\\PageResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T09:57:38.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T09:57:38.754Z"
             },
             {
               "$type": "Document",
@@ -361,8 +355,7 @@
               "RelativeToolTip": "..\\Shop.Domain\\Model\\Output\\FIlterPaging.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T16:01:11.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T16:01:11.776Z"
             },
             {
               "$type": "Document",
@@ -374,8 +367,7 @@
               "RelativeToolTip": "..\\Shop.Domain\\Interface\\Repository\\Base\\IReadRepository.cs",
               "ViewState": "AQIAABwAAABAzMzMzMwuwDIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T14:05:49.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T14:05:49.688Z"
             },
             {
               "$type": "Document",
@@ -387,8 +379,7 @@
               "RelativeToolTip": "..\\Shop.Domain\\Interface\\Repository\\UsersRepository\\IUserRepository.cs",
               "ViewState": "AQIAABoAAAAAyMzMzMwUwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T10:12:19.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T10:12:19.814Z"
             },
             {
               "$type": "Document",
@@ -400,8 +391,7 @@
               "RelativeToolTip": "Controllers\\Products\\ProductsController.cs",
               "ViewState": "AQIAAAYAAAAgMTMzMzMrwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T17:12:03.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T17:12:03.227Z"
             },
             {
               "$type": "Document",
@@ -413,8 +403,7 @@
               "RelativeToolTip": "..\\Shop.Domain\\Model\\Request\\ProductForm.cs",
               "ViewState": "AQIAAAcAAAAAMzMzMzMjwB0AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T09:49:29.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T09:49:29.395Z"
             },
             {
               "$type": "Document",
@@ -426,8 +415,7 @@
               "RelativeToolTip": "..\\Shop.Domain\\Model\\Request\\VariationForm.cs",
               "ViewState": "AQIAAAMAAACAMjMzMzMLwBQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T10:05:11.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T10:05:11.408Z"
             },
             {
               "$type": "Document",
@@ -439,8 +427,7 @@
               "RelativeToolTip": "..\\Shop.Domain\\Interface\\UseCases\\IProductUseCase.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAArwBQAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T02:18:10.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T02:18:10.642Z"
             },
             {
               "$type": "Document",
@@ -464,8 +451,7 @@
               "RelativeToolTip": "..\\Shop.Domain\\Model\\Response\\Base\\BaseResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T14:59:18.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T14:59:18.702Z"
             },
             {
               "$type": "Document",

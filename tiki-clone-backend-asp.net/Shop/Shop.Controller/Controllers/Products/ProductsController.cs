@@ -21,7 +21,7 @@ namespace Shop.Controllers
             _productUseCase = productUseCase;
         }
 
-        [XAllowAnonymous]
+        [XAuthorize(Roles.Admin)]
         [HttpPost("product")]
         public async Task<IActionResult> AddNewProduct([FromForm] ProductForm productForm)
         {
